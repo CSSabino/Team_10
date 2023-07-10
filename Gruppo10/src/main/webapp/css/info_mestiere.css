@@ -47,6 +47,14 @@ header {
 
 
 /* Stili per la lista */
+.titolo{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    color: white;
+}
+
 .mestieridiv{
     margin-left: 24%;
 }
