@@ -34,20 +34,21 @@ body {
     font-size: 35px;
     font-weight: bold;
 }
-
-.content {
-    margin-left: 295px;
-    padding: 20px;
-}
-
 #arrow-right {
-	color: #1ABCEF;
+    color: #1ABCEF;
 }
 
 header {
     background-color: #1ABCEF;
     padding: 2px 20px 0 40px;
 }
+
+.content {
+    margin-left: 295px;
+    padding: 20px;
+}
+
+
 
 h1 {
     font-size: 28px;
@@ -124,7 +125,7 @@ h2 {
 }
 
 
-/* CSS Responsivo */
+/* CSS Responsive */
 @media screen and (max-width: 768px) {
     .sidebar {
         width: 100%;
