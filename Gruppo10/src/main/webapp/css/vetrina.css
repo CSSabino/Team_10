@@ -5,17 +5,14 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../images/sfondoVetrina.webp");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+    background-color: #f1f1f1;
 }
 
 .sidebar {
     width: 275px;
-    height: 130%;
+    height: 100%;
     background-color: #000;
-    position: absolute;
+    position: fixed;
     left: 0;
     padding: 30px;
 }
@@ -44,67 +41,4 @@ body {
 header {
     background-color: #1ABCEF;
     padding: 2px 20px 0 40px;
-}
-
-
-
-
-/* Stili per la lista */
-.corsidiv{
-    margin-left: 24%;
-}
-
-.corsi {
-    list-style-type: none;
-    padding: 0;
-}
-
-.corsi li {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px;
-}
-.immagini{
-    width: 15%;
-}
-.immaginitesto{
-    width: 70%;
-    margin-left: 2%;
-    color: white;
-}
-.btn {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2%;
-    padding: 5px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-
-
-
-/* modifiche responsive*/
-@media screen and (max-width: 1200px) {
-    .sidebar {
-        width: 100%;
-        position: static;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .corsidiv{
-        margin-left: 0;
-    }
-
-    .immagini{
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 28%;
-        height: 140px;
-    }
 }

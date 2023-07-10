@@ -5,14 +5,15 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-image: url("../images/sfondoInfoMestiere.jpeg");
+    background-size: revert;
 }
 
 .sidebar {
     width: 275px;
-    height: 100%;
+    height: 175%;
     background-color: #000;
-    position: fixed;
+    position: absolute;
     left: 0;
     padding: 30px;
 }
@@ -20,7 +21,7 @@ body {
 .sidebar ul {
     list-style-type: none;
     padding: 5px;
-    margin: 50px 0 0 0;
+    margin: 70px 0 0 0;
 }
 
 .sidebar ul li {
@@ -42,3 +43,43 @@ header {
     background-color: #1ABCEF;
     padding: 2px 20px 0 40px;
 }
+
+
+
+/* Stili per la lista */
+.mestieridiv{
+    margin-left: 24%;
+}
+
+.mestieri {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mestieri li {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.immagini{
+    width: 25%;
+}
+.immaginitesto{
+    width: 70%;
+    margin-left: 2%;
+    color: white;
+}
+.btn {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
