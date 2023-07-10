@@ -2,6 +2,7 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
@@ -12,9 +13,9 @@ body {
 
 .sidebar {
     width: 275px;
-	height: 100%;
+	height: 93.5%;
     background-color: #000;
-    position: fixed;
+    position: absolute;
     left: 0;
     padding: 30px;
 }
@@ -77,57 +78,6 @@ h2 {
     border-radius: 4px;
 }
 
-/* PRODUCT PAGE */
-
-.grid-container {
-	display: grid;
-	margin-left: 375px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 25px;
-	padding: 30px;
-}
-
-.product {
-	background-color: red;
-	height: 180px;
-	width: 200px;
-	text-align: center;
-}
-
-.product .div-information {
-	padding: 20px;
-}
-
-.product .div-button {
-	background-color: #1ABCEF;
-	padding: 5px;
-	bottom: 0;
-}	
-
-.div-button a {
-	text-decoration: none;
-	color: #000;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.product img {
-	width: 100%;
-	max-width: 200px;
-	height: auto;
-	margin-bottom: 10px;
-}
-
-.product h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
-}
-
-.product p {
-	font-size: 14px;
-	color: #666;
-}
-
 
 /* CSS Responsive */
 @media screen and (max-width: 768px) {
@@ -142,3 +92,150 @@ h2 {
         margin-left: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+.big-text{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.big-text1{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+
+
+/* Poster */
+
+.poster{
+    display: flex;
+    height: 100.5vh;
+    width: 100%;
+    margin-left: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7));
+}
+
+.poster__img{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 45%;
+}
+.poster__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.poster__content{
+    width: 35%;
+    padding: 50px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .poster{flex-wrap: wrap;height: auto;}
+    .poster__img,
+    .poster__content{width: 100%;}
+}
+
+
+
+/* BG Cover (Mario Kart) */
+
+.bg-cover{
+    display: flex;
+    padding: 90px 0;
+    background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7));
+    background-size: cover;
+}
+
+.bg-cover__text{
+    margin-left: 10%;
+    width: 50%;
+    padding: 30px 100px 30px 0;
+    font-size: 20px;
+}
+.bg-cover h3{
+    align-items: end;
+    margin-bottom: 5%;
+}
+
+.bg-cover__img{
+    width: 90%;
+    height: 100%;
+    padding-left: 100px;
+
+}
+.bg-cover__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.bg-cover__title{
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+
+}
+
+@media (max-width: 768px) {
+    .bg-cover{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .bg-cover__text{width: 100%; padding:5px;}
+    .bg-cover__title,.bg-cover__img{width: 100%;padding:0;}
+
+}
+
+
+
+
+
+.poster1{
+    display: flex;
+    height: 100.5vh;
+    width: 100%;
+    margin-left: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7));
+}
+
+.poster__img1{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 45%;
+    height: 45%;
+}
+.poster__img1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.poster__content1{
+    width: 35%;
+    padding: 50px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .poster1{flex-wrap: wrap;height: auto;}
+    .poster__img1,
+    .poster__content1{width: 100%;}
+}
+

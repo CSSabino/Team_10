@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Progetto Inclusione Artigianato Italiano</title>
+    <title>Info Mestieri</title>
     <link rel="stylesheet" type="text/css" href="css/info_mestiere.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
 </head>
 <body>
 <header>
@@ -11,8 +14,8 @@
         <img src="images/logo.png" alt="logo" width="150px" height="120px">
     </a>
 
-    <a href="index.html">
-        <img src="images/home.png" alt="logo" style="float:right" width="120px" height="90px">
+    <a href="home.html">
+        <img src="images/home.png" alt="torna a home" style="float:right" width="120px" height="90px">
     </a>
 </header>
 
@@ -25,34 +28,51 @@
     </ul>
 </div>
 
-<div class ="mestieridiv">
-    <ul class="mestieri">
-        <li>
-            <img src="images/mestieri/scultore.jpg" class="immagini">
-            <p class="immaginitesto">SCULTORE: Lo scultore è un artista che trasforma la materia in opere d'arte tridimensionali, creando qualcosa di tangibile e duraturo. Con abilità manuali e una profonda comprensione dei materiali, gli scultori plasmano figure, forme e emozioni, dando vita a opere che possono ispirare, provocare riflessioni e comunicare un messaggio potente. Attraverso l'uso del colore, della texture e delle proporzioni, gli scultori danno forma a visioni uniche e stimolano l'immaginazione dello spettatore. Il lavoro dello scultore è un tributo alla creatività umana e un'arte che incanta e incanta chiunque abbia il privilegio di ammirare le loro creazioni tridimensionali.</p>
 
+<div class ="mestieridiv">
+    <ul class="mestieri zoom">
+        <li class="li zoom">
+            <img src="images/mestieri/scultore.jpg" class="immagini" alt="immagine di scultore">
+            <p class="immaginitesto">SCULTORE: Lo scultore è un artista che trasforma la materia in opere d'arte tridimensionali, creando qualcosa di tangibile e duraturo. Con abilità manuali e una profonda comprensione dei materiali, gli scultori plasmano figure, forme e emozioni, dando vita a opere che possono ispirare, provocare riflessioni e comunicare un messaggio potente. Attraverso l'uso del colore, della texture e delle proporzioni, gli scultori danno forma a visioni uniche e stimolano l'immaginazione dello spettatore. Il lavoro dello scultore è un tributo alla creatività umana e un'arte che incanta e incanta chiunque abbia il privilegio di ammirare le loro creazioni tridimensionali.</p>
         </li>
-        <li>
-            <img src="images/mestieri/pittore.jpeg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/pittore.jpeg" class="immagini" alt="immagine di pittore">
             <p class="immaginitesto">PITTORE: Il pittore è un artista che utilizza il colore, la composizione e le pennellate per creare opere d'arte visivamente affascinanti e stimolanti. Attraverso l'uso dei colori, i pittori trasmettono emozioni, catturano la luce e la profondità, e creano una connessione emotiva con gli spettatori. Con maestria tecnica e una profonda sensibilità artistica, i pittori possono rappresentare la bellezza del mondo naturale, raccontare storie complesse o esplorare l'astrazione pura. Il lavoro del pittore è una celebrazione dell'espressione creativa e della capacità di trasformare la tela bianca in un mondo ricco di vita, emozione e significato.</p>
         </li>
-        <li><img src="images/mestieri/calzolaio.jpeg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/calzolaio.jpeg" class="immagini" alt="immagine di calzolaio">
             <p class="immaginitesto">CALZOLAIO: Il calzolaio è un artigiano che crea e ripara calzature, donando comfort, stile e funzionalità ai piedi delle persone. Con grande maestria e attenzione ai dettagli, il calzolaio lavora con materiali di alta qualità, utilizzando strumenti specializzati per tagliare, cucire e modellare il cuoio o altri materiali. Con una combinazione di abilità manuali e conoscenza della struttura del piede, il calzolaio realizza calzature su misura che si adattano perfettamente e riflettono la personalità del cliente. Il lavoro del calzolaio è una testimonianza della dedizione all'artigianato tradizionale e alla creazione di calzature che durano nel tempo, offrendo comfort e stile senza compromessi.</p>
         </li>
-        <li><img src="images/mestieri/falegname.jpeg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/falegname.jpeg" class="immagini" alt="immagine di falegname">
             <p class="immaginitesto">FALEGNAME: Il falegname è un artigiano che trasforma il legno in opere d'arte funzionali e durature. Con maestria e precisione, il falegname crea mobili su misura, oggetti decorativi e strutture architettoniche che combinano estetica e funzionalità. Attraverso la selezione accurata del legno, l'utilizzo di strumenti tradizionali e tecnologie moderne, il falegname dà forma alle idee, creando pezzi unici che riflettono la bellezza naturale del materiale. Il lavoro del falegname è una celebrazione della tradizione artigianale, della cura dei dettagli e della passione per la lavorazione del legno, che arricchisce gli spazi e lascia un'eredità di qualità e bellezza per le generazioni future.</p>
         </li>
-        <li><img src="images/mestieri/ceramista.jpeg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/ceramista.jpeg" class="immagini" alt="immagine di ceramista">
             <p class="immaginitesto">CERAMISTA: Il ceramista è un artista che dà vita all'argilla, trasformandola in opere d'arte uniche e affascinanti. Con maestria e sensibilità, il ceramista plasma e modella l'argilla, creando forme tridimensionali che esprimono creatività e bellezza. Attraverso tecniche come la tornitura, la costruzione a mano o la colata, il ceramista dà forma a vasi, sculture, piatti e altri oggetti decorativi. Con l'aggiunta di smalti e la cottura a elevate temperature, il ceramista conferisce vita e colore alle creazioni, creando opere che resistono al tempo e raccontano storie uniche. Il lavoro del ceramista è una celebrazione dell'arte antica, della manualità e dell'espressione artistica che immerge lo spettatore in un mondo di forme, texture e emozioni.</p>
         </li>
-        <li><img src="images/mestieri/fabbro-1.jpg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/fabbro-1.jpg" class="immagini" alt="immagine di fabbro">
             <p class="immaginitesto">FABBRO: Il fabbro è un artigiano che lavora il metallo con maestria e creatività, trasformandolo in opere funzionali e decorative. Con abilità e precisione, il fabbro forgia, salda e plasma il metallo, creando cancelli, ringhiere, sculture e altri manufatti personalizzati. Attraverso la fusione di competenze tecniche e artistiche, il fabbro trasforma il metallo grezzo in opere d'arte che combinano estetica, resistenza e funzionalità. Il lavoro del fabbro è una celebrazione dell'abilità artigianale, dell'arte della metallurgia e dell'abilità di creare pezzi unici che lasciano un'impronta duratura, arricchendo gli spazi e ispirando ammirazione per l'arte del lavoro del metallo.</p>
         </li>
-        <li><img src="images/mestieri/gioielliere.jpeg" class="immagini">
+        <li class="li zoom">
+            <img src="images/mestieri/gioielliere.jpeg" class="immagini" alt="immagine di gioielliere">
             <p class="immaginitesto">GIOIELLIERE: Il gioielliere è un artigiano che trasforma metalli preziosi e pietre preziose in creazioni di bellezza e valore. Con maestria e creatività, il gioielliere progetta e realizza gioielli unici che riflettono lo stile e la personalità del cliente. Utilizzando tecniche di lavorazione come la cesellatura, l'incastonatura e la saldatura, il gioielliere dà vita a anelli, collane, braccialetti e orecchini che diventano veri e propri tesori. Il lavoro del gioielliere richiede una profonda conoscenza dei metalli e delle pietre, nonché una grande attenzione ai dettagli per creare pezzi che siano esteticamente affascinanti e di qualità duratura. Il lavoro del gioielliere è un'arte che celebra l'eleganza, il lusso e l'amore per la bellezza, regalando gioielli che diventano preziosi tesori custoditi per generazioni.</p>
         </li>
     </ul>
 </div>
+
+<script>
+
+    ScrollReveal().reveal('.reveal');
+
+    ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600, mobile: false }) ; /*animazione reveal*/
+
+    ScrollReveal().reveal('.zoom',  {  duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false}); /*animazione zoom*/
+
+
+
+</script>
 
 
 
