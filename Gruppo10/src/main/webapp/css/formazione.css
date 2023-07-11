@@ -13,7 +13,7 @@ body {
 
 .sidebar {
     width: 275px;
-    height: 123%;
+    height: 145%;
     background-color: #000;
     position: absolute;
     left: 0;
@@ -85,7 +85,7 @@ header {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 2%;
-    padding: 5px;
+    padding: 10px;
     background-color: #333;
     color: #fff;
     text-decoration: none;
