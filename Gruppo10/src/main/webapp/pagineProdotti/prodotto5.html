@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Prodotto4</title>
+    <link rel="stylesheet" type="text/css" href="../css/pagine_prod.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 <body>
 
+<header>
+    <a href="#">
+        <img src="../images/logo.png" alt="logo" width="150px" height="120px">
+    </a>
+
+    <a href="../home.html">
+        <img src="../images/home.png" alt="torna a home" style="float:right" width="120px" height="90px">
+    </a>
+</header>
+
+<div class="sidebar">
+    <ul>
+        <li><a href="../chi_siamo.html"><span class="fa fa-long-arrow-right"></span> Chi Siamo</a></li>
+        <li><a href="../vetrina.html"><span id="arrow-right" class="fa fa-long-arrow-right"></span> Vetrina</a></li>
+        <li><a href="../formazione.html"><span  class="fa fa-long-arrow-right"></span> Formazione</a></li>
+        <li><a href="../info_mestiere.html"><span class="fa fa-long-arrow-right"></span> Info mestiere</a></li>
+    </ul>
+</div>
+
+<div class="oggetti">
+    <h1 class=" reveal"></h1>
+    <img src="/images/prodotti/falegname1.jpeg" alt="tavolo in legno massello" class=" reveal">
+    <h2 class=" reveal">Descrizione</h2>
+    <h2 class=" reveal">L'Autore</h2>
+    <h2 class=" reveal"></h2>
+    <h2 class=" reveal">Contatti</h2>
+    <p class=" reveal"> Email: matteo@gmail.com</p>
+</div>
+
+<script>
+
+    ScrollReveal().reveal('.reveal');
+
+    ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600, mobile: false }) ; /*animazione reveal*/
+
+    ScrollReveal().reveal('.zoom',  {  duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false}); /*animazione zoom*/
+
+
+
+</script>
 </body>
 </html>

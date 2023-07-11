@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Prodotto2</title>
+    <link rel="stylesheet" type="text/css" href="../css/pagine_prod.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 <body>
 
+<header>
+    <a href="#">
+        <img src="../images/logo.png" alt="logo" width="150px" height="120px">
+    </a>
+
+    <a href="../home.html">
+        <img src="../images/home.png" alt="torna a home" style="float:right" width="120px" height="90px">
+    </a>
+</header>
+
+<div class="sidebar">
+    <ul>
+        <li><a href="../chi_siamo.html"><span class="fa fa-long-arrow-right"></span> Chi Siamo</a></li>
+        <li><a href="../vetrina.html"><span id="arrow-right" class="fa fa-long-arrow-right"></span> Vetrina</a></li>
+        <li><a href="../formazione.html"><span  class="fa fa-long-arrow-right"></span> Formazione</a></li>
+        <li><a href="../info_mestiere.html"><span class="fa fa-long-arrow-right"></span> Info mestiere</a></li>
+    </ul>
+</div>
+
+<div class="oggetti">
+    <h1 class=" reveal">Eleganza Forgiata</h1>
+    <img src="/images/prodotti/cancello2.jpeg" alt="ringhiera in ferro battuto" class=" reveal">
+    <h2 class=" reveal">Descrizione</h2>
+    <p class=" reveal">L'immagine rappresenta una maestosa ringhiera in ferro battuto che si estende lungo un balcone panoramico. La ringhiera è un intricato intreccio di eleganti filamenti di ferro, lavorati a mano con estrema cura e precisione. La sua struttura presenta dettagli floreali e geometrici, che si alternano creando una danza di linee sinuose e delicati arabeschi. La ringhiera è caratterizzata da una raffinatezza senza tempo, conferendo al balcone un tocco di classe e sofisticatezza.</p>
+    <h2 class=" reveal">L'Autore</h2>
+    <p class=" reveal">L'artista dietro questa straordinaria ringhiera è Matteo Ricci, un rinomato fabbro artistico originario della città di Monteverde. Matteo è un maestro nell'arte del ferro battuto e ha dedicato la sua vita alla creazione di opere uniche. La sua passione per il ferro e la sua creatività si fondono nella realizzazione di opere che esprimono eleganza e bellezza senza tempo. Matteo è noto per la sua abilità nel modellare il ferro con precisione e per la sua capacità di trasformare il metallo in un'opera d'arte emozionante.</p>
+    <h2 class=" reveal">La citta di Monteverde</h2>
+    <p class=" reveal">Monteverde è una città pittoresca situata in una valle incantevole, circondata da colline verdi e boschi lussureggianti. La città è rinomata per la sua ricca eredità artistica e artigianale. Monteverde è considerata il cuore dell'artigianato in ferro battuto, con numerosi fabbri artistici che creano opere d'arte uniche. La comunità artistica di Monteverde è famosa per il suo spirito creativo e la passione per il dettaglio, che si riflette nelle opere esposte nelle strade e nei luoghi pubblici della città.</p>
+    <h2 class=" reveal">Contatti</h2>
+    <p class=" reveal"> Email: matteo@gmail.com</p>
+    </div>
+
+<script>
+
+    ScrollReveal().reveal('.reveal');
+
+    ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600, mobile: false }) ; /*animazione reveal*/
+
+    ScrollReveal().reveal('.zoom',  {  duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false}); /*animazione zoom*/
+
+
+
+</script>
 </body>
 </html>
