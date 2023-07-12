@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Richiesta Incontro</title>
+    <title>Formazione</title>
+    <link rel="stylesheet" type="text/css" href="css/form_incontro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
+<header>
+    <a href="#">
+        <img src="images/logo.png" alt="logo" width="150px" height="120px">
+    </a>
+
+    <a href="home.html">
+        <img src="images/home.png" alt="torna a home" style="float:right" width="120px" height="90px">
+    </a>
+</header>
 <body>
-<p>Pagina di richiesta incontro; Form+popop di richiesta effettuata</p>
+<div class="container zoom">
+    <p>Compilare il seguente form per richiedere un incontro con uno dei nostri artigiani</p><br><br><br>
+    <form action="home.html">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br><br>
+
+        <label for="phone">Telefono:</label>
+        <input type="text" id="phone" name="phone"><br><br><br>
+
+        <label for="address">Indirizzo:</label>
+        <input type="text" id="address" name="address"><br><br><br>
+
+        <label for="message">Messaggio:</label>
+        <textarea id="message" name="message"></textarea><br><br><br>
+
+        <label for="choice">Scelta Corso:</label>
+        <select id="choice" name="choice">
+            <option value="opzione1">Falegname</option>
+            <option value="opzione2">Fabbro</option>
+            <option value="opzione3">Pittore</option>
+            <option value="opzione4">Scultore</option>
+            <option value="opzione5">Gioielliere</option>
+            <option value="opzione6">Calzolaio</option>
+            <option value="opzione7">Ceramista</option>
+        </select><br><br><br>
+
+        <input type="submit" value="Invia" class="btn">
+    </form>
+</div>
+
+<script>
+
+    ScrollReveal().reveal('.reveal');
+
+    ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600, mobile: false }) ; /*animazione reveal*/
+
+    ScrollReveal().reveal('.zoom',  {  duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false}); /*animazione zoom*/
+
+
+
+</script>
 </body>
 </html>
