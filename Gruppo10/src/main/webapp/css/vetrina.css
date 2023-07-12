@@ -11,7 +11,7 @@ body {
 
 .sidebar {
     width: 275px;
-    height: 180%;
+    height: 185%;
     background-color: #000;
     position: absolute;
     left: 0;
@@ -36,11 +36,11 @@ body {
 }
 
 #arrow-right {
-    color: #1ABCEF;
+    color: #955f20;
 }
 
 header {
-    background-color: #1ABCEF;
+    background-color: #955f20;
     padding: 2px 20px 0 40px;
 }
 
@@ -58,8 +58,10 @@ header {
 
 
 .titolo{
+    font-family: "Komoda", sans-serif;
+    font-size: 70px;
     margin-left: 52.5%;
-    color: black;
+    color: white;
     padding: 10px;
 }
 
@@ -116,3 +118,7 @@ header {
     }
 }
 
+@font-face {
+    font-family: "Komoda";
+    src: url("../Komoda/Komoda.otf") format("woff2");
+}
