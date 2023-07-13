@@ -19,7 +19,7 @@
 <body>
 <div class="container zoom">
     <p>Compilare il seguente form per richiedere un incontro con uno dei nostri artigiani</p><br><br><br>
-    <form action="home.html">
+    <form action="contact-servlet" method="post">
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name"><br><br><br>
 
@@ -35,15 +35,15 @@
         <label for="message">Messaggio:</label>
         <textarea id="message" name="message"></textarea><br><br><br>
 
-        <label for="choice">Scelta Corso:</label>
-        <select id="choice" name="choice">
-            <option value="opzione1">Falegname</option>
-            <option value="opzione2">Fabbro</option>
-            <option value="opzione3">Pittore</option>
-            <option value="opzione4">Scultore</option>
-            <option value="opzione5">Gioielliere</option>
-            <option value="opzione6">Calzolaio</option>
-            <option value="opzione7">Ceramista</option>
+        <label for="artigiano">Scelta Corso:</label>
+        <select id="artigiano" name="artigiano">
+            <option value="falegname">Falegname</option>
+            <option value="fabbro">Fabbro</option>
+            <option value="pittore">Pittore</option>
+            <option value="scultore">Scultore</option>
+            <option value="gioielliere">Gioielliere</option>
+            <option value="calzolaio">Calzolaio</option>
+            <option value="ceramista">Ceramista</option>
         </select><br><br><br>
 
         <input type="submit" value="Invia" class="btn">

@@ -7,13 +7,47 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-	background-image: url("../images/sfondoHome.jpeg");
     background-size: cover;
+}
+
+.popup{
+    position: absolute;
+    background-color: #955f20;
+    border: 3px solid black;
+    z-index: 10;
+    width: 50%;
+    top: 40%;
+    left: 35%;
+}
+
+.popup .popup-intestazione{
+    text-align: center;
+    background-color: black;
+    font-size: 17px;
+    padding: 2%;
+}
+
+.popup .popup-contenuto{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2%;
+}
+
+.popup .popup-btn{
+    text-align: center;
+    bottom: 0;
+    background-color: black;
+    font-size: 12px;
+    padding: 1%;
+}
+
+.popup .popup-btn a{
+    cursor: pointer;
 }
 
 .sidebar {
     width: 275px;
-	height: 93.5%;
+    height: 93.5%;
     background-color: #000;
     position: absolute;
     left: 0;
@@ -242,5 +276,3 @@ h2 {
 
 
 }
-
-
