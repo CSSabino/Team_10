@@ -15,14 +15,14 @@ public class ContactServlet extends HttpServlet {
         String email = request.getParameter("email");
         String telefono = request.getParameter("phone");
         String indirizzo = request.getParameter("address");
-        String artigiano = request.getParameter("address");
+        String artigiano = request.getParameter("artigiano");
 
         request.setAttribute("nomeContattare", nome);
         request.setAttribute("emailContattare", email);
         request.setAttribute("telefonoContattare", telefono);
         request.setAttribute("indirizzoContattare", indirizzo);
         request.setAttribute("artigianoContattare", artigiano);
-        String address = "/WEB-INF/home.jsp";
+        String address = "/home.jsp";
 
 
         RequestDispatcher dispatcher =

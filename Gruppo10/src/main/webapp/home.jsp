@@ -42,7 +42,7 @@
     String artigiano = (String) request.getAttribute("artigianoContattare");
 %>
 
-<div id="popup" class="popup">
+<div id="popup" class="popup zoom" >
     <div class="popup-intestazione">
         <span>RICHIESTA INCONTRO RICEVUTA</span>
     </div>

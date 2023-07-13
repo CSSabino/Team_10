@@ -21,22 +21,22 @@
     <p>Compilare il seguente form per richiedere un incontro con uno dei nostri artigiani</p><br><br><br>
     <form action="contact-servlet" method="post">
         <label for="name">Nome:</label>
-        <input type="text" id="name" name="name"><br><br><br>
+        <input type="text" id="name" name="name" required="required"><br><br><br>
 
         <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br><br><br>
+        <input type="text" id="email" name="email" required="required"><br><br><br>
 
         <label for="phone">Telefono:</label>
-        <input type="text" id="phone" name="phone"><br><br><br>
+        <input type="text" id="phone" name="phone" required="required"><br><br><br>
 
         <label for="address">Indirizzo:</label>
-        <input type="text" id="address" name="address"><br><br><br>
+        <input type="text" id="address" name="address" required="required"><br><br><br>
 
         <label for="message">Messaggio:</label>
-        <textarea id="message" name="message"></textarea><br><br><br>
+        <textarea id="message" name="message" required="required"></textarea><br><br><br>
 
         <label for="artigiano">Scelta Corso:</label>
-        <select id="artigiano" name="artigiano">
+        <select id="artigiano" name="artigiano" required="required">
             <option value="falegname">Falegname</option>
             <option value="fabbro">Fabbro</option>
             <option value="pittore">Pittore</option>

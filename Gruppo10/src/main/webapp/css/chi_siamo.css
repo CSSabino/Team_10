@@ -12,7 +12,7 @@ body {
 
 .sidebar {
     width: 275px;
-    height: 262%;
+    height: 270%;
     background-color: #000;
     position: absolute;
     left: 0;
@@ -51,7 +51,7 @@ header {
 
 .oggetti{
     position: absolute;
-    height: 269%;
+    height: 277.7%;
     background-color: rgba(0,0,0,0.5);
     color: black;
     margin-left: 335px;
